@@ -1,5 +1,5 @@
 # Doge Watch
-[![donate dogecoin](https://img.shields.io/badge/donate-dogecoin-yellow.svg)](/QR_Code_Dogecoin_Deposit_Address.png)
+[![donate dogecoin](https://img.shields.io/badge/donate-dogecoin-yellow.svg)](/donation.md)
 
 such time. very watchface. wow.
 
