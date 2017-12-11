@@ -1,0 +1,15 @@
+{
+  "fitbit": {
+    "appUUID": "2218880f-61c7-494c-a6b5-dc4a66093312",
+    "appType": "clockface",
+    "appDisplayName": "DogeWatch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "i18n": {
+      "en": {
+        "name": "DogeWatch"
+      }
+    }
+  }
+}

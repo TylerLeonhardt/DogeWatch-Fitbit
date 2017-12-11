@@ -1,0 +1,5 @@
+<svg class="background">
+  <image x="74" y="25" width="200" height="200" href="doge.png" />
+  <text id="wow" class="right">wow</text>
+  <text id="myLabel" />
+</svg>
