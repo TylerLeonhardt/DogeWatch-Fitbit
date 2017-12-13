@@ -2,30 +2,25 @@
   viewport-fill: #E7C58A;
 }
 
-#myLabel {
-  font-size: 80;
+.text {
   font-family: System-Bold;
   text-length: 32;
   text-anchor: middle;
   x: 50%;
-  y: 50%+100;
-  fill: white;
+  fill: #f7f7f7;
 }
 
 #wow {
   font-size: 40;
-  font-family: System-Bold;
-  text-length: 32;
-  text-anchor: middle;
-  x: 50%;
   y: 20;
-  fill: white;
 }
 
-.right {
-  x: 100;
+#time {
+  font-size: 80;
+  y: 50%+80;
 }
 
-.left {
-  x: 200;
+#date {
+  font-size: 36;
+  y: 50%+120;
 }

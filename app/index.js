@@ -6,21 +6,21 @@ import * as util from "../common/utils";
 // Update the clock every minute
 clock.granularity = "minutes";
 
-// Get a handle on the <text> element
-let myLabel = document.getElementById("myLabel");
+
 let wow = document.getElementById("wow");
+let time = document.getElementById("time");
+let date = document.getElementById("date");
+
 
 // Update the <text> element with the current time
 function updateClock() {
-  let today = new Date();
-  let hours = today.getHours();
-  let mins = util.zeroPad(today.getMinutes());
-
-  myLabel.text = `${hours}:${mins}`;
-  
   wow.x = util.getRandomPosition(35,300);
   wow.y = util.getRandomPosition(35,160);
   wow.style.fill = util.getRandomColor();
+
+  var now = new Date();
+  time.text = util.formatAMPM(now);
+  date.text = `${now.getMonth()}/${now.getDay()}/${now.getFullYear()}`;
 }
 
 // Update the clock every tick event
