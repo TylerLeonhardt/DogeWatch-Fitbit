@@ -20,7 +20,7 @@ function updateClock() {
 
   var now = new Date();
   time.text = util.formatAMPM(now);
-  date.text = `${now.getMonth()}/${now.getDay()}/${now.getFullYear()}`;
+  date.text = `${now.getMonth() + 1}/${now.getDate()}/${now.getFullYear()}`;
 }
 
 // Update the clock every tick event
