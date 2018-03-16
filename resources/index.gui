@@ -1,5 +1,5 @@
 <svg class="background">
-  <image x="74" y="25" width="200" height="200" href="doge.png" />
+  <image id="doge" x="20%" y="25" width="60%" height="200" href="doge.png" />
   <text id="wow" class="text" >wow</text>
   <text id="time" class="text" />
   <text id="date" class="text" />
